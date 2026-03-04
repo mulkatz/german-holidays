@@ -1,0 +1,67 @@
+{
+	"name": "deutsche-feiertage",
+	"version": "0.0.1",
+	"description": "German public holidays for all 16 states. Movable holidays, Brückentage, isFeiertag — TypeScript-first, zero dependencies, CLI included.",
+	"type": "module",
+	"license": "MIT",
+	"author": "Franz Benthin",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mulkatz/deutsche-feiertage"
+	},
+	"homepage": "https://github.com/mulkatz/deutsche-feiertage#readme",
+	"bugs": {
+		"url": "https://github.com/mulkatz/deutsche-feiertage/issues"
+	},
+	"keywords": [
+		"feiertage",
+		"holidays",
+		"german",
+		"deutschland",
+		"bundesland",
+		"brückentage",
+		"bridge-days",
+		"public-holidays",
+		"typescript",
+		"cli"
+	],
+	"bin": {
+		"deutsche-feiertage": "./dist/cli.js"
+	},
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/index.js"
+			},
+			"require": {
+				"types": "./dist/index.d.cts",
+				"default": "./dist/index.cjs"
+			}
+		}
+	},
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"files": ["dist"],
+	"scripts": {
+		"build": "tsup",
+		"dev": "tsup --watch",
+		"check": "biome check .",
+		"check:fix": "biome check --write .",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"prepublishOnly": "npm run build"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.0",
+		"@types/node": "^25.3.3",
+		"tsup": "^8.3.0",
+		"typescript": "^5.7.0",
+		"vitest": "^3.0.0"
+	}
+}
