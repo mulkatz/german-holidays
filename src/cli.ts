@@ -5,11 +5,11 @@ import type { Bundesland } from "./types.js";
 
 function printUsage(): void {
 	console.log(`
-deutsche-feiertage — German public holidays CLI
+german-holidays — German public holidays CLI
 
 Usage:
-  deutsche-feiertage <year> [state]
-  deutsche-feiertage --brueckentage <year> [state]
+  german-holidays <year> [state]
+  german-holidays --brueckentage <year> [state]
 
 Arguments:
   year    Year (e.g. 2026)
@@ -24,9 +24,9 @@ State codes:
   ${ALL_STATES.map((s) => `${s} (${BUNDESLAENDER[s]})`).join("\n  ")}
 
 Examples:
-  deutsche-feiertage 2026
-  deutsche-feiertage 2026 BY
-  deutsche-feiertage --brueckentage 2026 NW
+  german-holidays 2026
+  german-holidays 2026 BY
+  german-holidays --brueckentage 2026 NW
 `);
 }
 

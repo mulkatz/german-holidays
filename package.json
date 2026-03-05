@@ -1,5 +1,5 @@
 {
-	"name": "deutsche-feiertage",
+	"name": "german-holidays",
 	"version": "0.0.1",
 	"description": "German public holidays for all 16 states. Movable holidays, Brückentage, isFeiertag — TypeScript-first, zero dependencies, CLI included.",
 	"type": "module",
@@ -7,11 +7,11 @@
 	"author": "Franz Benthin",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mulkatz/deutsche-feiertage"
+		"url": "https://github.com/mulkatz/german-holidays"
 	},
-	"homepage": "https://github.com/mulkatz/deutsche-feiertage#readme",
+	"homepage": "https://github.com/mulkatz/german-holidays#readme",
 	"bugs": {
-		"url": "https://github.com/mulkatz/deutsche-feiertage/issues"
+		"url": "https://github.com/mulkatz/german-holidays/issues"
 	},
 	"keywords": [
 		"feiertage",
@@ -26,7 +26,7 @@
 		"cli"
 	],
 	"bin": {
-		"deutsche-feiertage": "./dist/cli.js"
+		"german-holidays": "./dist/cli.js"
 	},
 	"exports": {
 		".": {

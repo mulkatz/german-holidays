@@ -1,4 +1,4 @@
-# deutsche-feiertage
+# german-holidays
 
 German public holidays for all 16 states. Brückentage calculator, CLI included. TypeScript-first, zero dependencies.
 
@@ -7,7 +7,7 @@ German public holidays for all 16 states. Brückentage calculator, CLI included.
 - **All 16 federal states** — correct holiday rules per Bundesland
 - **Movable holidays** — Easter, Pentecost, Corpus Christi, etc. calculated automatically
 - **Brückentage** — find bridge day opportunities to maximize your time off
-- **CLI included** — `npx deutsche-feiertage 2026 BY`
+- **CLI included** — `npx german-holidays 2026 BY`
 - **TypeScript-first** — full type safety, no `@types` needed
 - **Zero dependencies** — pure date arithmetic, no date library
 - **Tiny** — ~1.5KB gzipped (library), tree-shakeable
@@ -16,13 +16,13 @@ German public holidays for all 16 states. Brückentage calculator, CLI included.
 ## Install
 
 ```bash
-npm install deutsche-feiertage
+npm install german-holidays
 ```
 
 ## Quick Start
 
 ```ts
-import { getFeiertage, isFeiertag, getBrueckentage } from 'deutsche-feiertage';
+import { getFeiertage, isFeiertag, getBrueckentage } from 'german-holidays';
 
 // Get all holidays for Bayern 2026
 const holidays = getFeiertage(2026, 'BY');
@@ -40,16 +40,16 @@ const brueckentage = getBrueckentage(2026, 'BY');
 
 ```bash
 # All nationwide holidays
-npx deutsche-feiertage 2026
+npx german-holidays 2026
 
 # Holidays for a specific state
-npx deutsche-feiertage 2026 BY
+npx german-holidays 2026 BY
 
 # Bridge day opportunities
-npx deutsche-feiertage --brueckentage 2026 NW
+npx german-holidays --brueckentage 2026 NW
 
 # English names
-npx deutsche-feiertage 2026 BY --en
+npx german-holidays 2026 BY --en
 ```
 
 ## API
@@ -135,7 +135,7 @@ easterSunday(2026); // → [4, 5] (April 5)
 ## Types
 
 ```ts
-import type { Bundesland, Feiertag, Brueckentag, DateString } from 'deutsche-feiertage';
+import type { Bundesland, Feiertag, Brueckentag, DateString } from 'german-holidays';
 ```
 
 ## License
