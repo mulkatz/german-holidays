@@ -24,7 +24,7 @@ export function getBrueckentage(year: number, bundesland: Bundesland): Brueckent
 					date: monday,
 					feiertag: holiday.name,
 					urlaubstage: 1,
-					frepieTage: 4,
+					freieTage: 4,
 					start: saturday,
 					end: holiday.date,
 				});
@@ -40,7 +40,7 @@ export function getBrueckentage(year: number, bundesland: Bundesland): Brueckent
 					date: friday,
 					feiertag: holiday.name,
 					urlaubstage: 1,
-					frepieTage: 4,
+					freieTage: 4,
 					start: holiday.date,
 					end: sunday,
 				});
@@ -62,7 +62,7 @@ export function getBrueckentage(year: number, bundesland: Bundesland): Brueckent
 					date: monday,
 					feiertag: holiday.name,
 					urlaubstage: 2,
-					frepieTage: 5,
+					freieTage: 5,
 					start: saturday,
 					end: holiday.date,
 				});
@@ -81,7 +81,7 @@ export function getBrueckentage(year: number, bundesland: Bundesland): Brueckent
 					date: thursday,
 					feiertag: holiday.name,
 					urlaubstage: 2,
-					frepieTage: 5,
+					freieTage: 5,
 					start: holiday.date,
 					end: sunday,
 				});

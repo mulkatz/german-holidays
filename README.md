@@ -10,7 +10,7 @@ German public holidays for all 16 states. Brückentage calculator, CLI included.
 - **CLI included** — `npx german-holidays 2026 BY`
 - **TypeScript-first** — full type safety, no `@types` needed
 - **Zero dependencies** — pure date arithmetic, no date library
-- **Tiny** — ~1.5KB gzipped (library), tree-shakeable
+- **Tiny** — <2KB gzipped (library), tree-shakeable
 - **Dual format** — ESM + CJS
 
 ## Install
@@ -33,7 +33,7 @@ const result = isFeiertag('2026-12-25', 'BY');
 
 // Find bridge day opportunities
 const brueckentage = getBrueckentage(2026, 'BY');
-// → [{ date: '2026-05-15', feiertag: 'Christi Himmelfahrt', urlaubstage: 1, frepieTage: 4, ... }]
+// → [{ date: '2026-05-15', feiertag: 'Christi Himmelfahrt', urlaubstage: 1, freieTage: 4, ... }]
 ```
 
 ## CLI
@@ -95,7 +95,7 @@ Each `Brueckentag` contains:
 | `date` | `string` | The vacation day to take |
 | `feiertag` | `string` | Connected holiday name |
 | `urlaubstage` | `number` | Vacation days needed |
-| `frepieTage` | `number` | Total consecutive days off |
+| `freieTage` | `number` | Total consecutive days off |
 | `start` | `string` | Start of break |
 | `end` | `string` | End of break |
 

@@ -16,7 +16,7 @@ describe("getBrueckentage", () => {
 		expect(himmelfahrt).toBeDefined();
 		expect(himmelfahrt?.date).toBe("2026-05-15");
 		expect(himmelfahrt?.urlaubstage).toBe(1);
-		expect(himmelfahrt?.frepieTage).toBe(4);
+		expect(himmelfahrt?.freieTage).toBe(4);
 	});
 
 	it("returns sorted results by date", () => {

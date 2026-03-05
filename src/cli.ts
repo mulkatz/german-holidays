@@ -75,7 +75,7 @@ function main(): void {
 		}
 		for (const bt of brueckentage) {
 			console.log(
-				`  ${bt.date}  ${bt.urlaubstage} vacation day(s) → ${bt.frepieTage} days off (${bt.start} – ${bt.end})`,
+				`  ${bt.date}  ${bt.urlaubstage} vacation day(s) → ${bt.freieTage} days off (${bt.start} – ${bt.end})`,
 			);
 			console.log(`             ↳ ${bt.feiertag}\n`);
 		}

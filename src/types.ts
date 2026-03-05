@@ -41,7 +41,7 @@ export interface Brueckentag {
 	/** Number of vacation days needed */
 	urlaubstage: number;
 	/** Total consecutive days off (including weekends) */
-	frepieTage: number;
+	freieTage: number;
 	/** Start of the consecutive days off */
 	start: DateString;
 	/** End of the consecutive days off */

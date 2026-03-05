@@ -1,6 +1,6 @@
 {
 	"name": "german-holidays",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "German public holidays for all 16 states. Movable holidays, Brückentage, isFeiertag — TypeScript-first, zero dependencies, CLI included.",
 	"type": "module",
 	"license": "MIT",
@@ -14,14 +14,17 @@
 		"url": "https://github.com/mulkatz/german-holidays/issues"
 	},
 	"keywords": [
+		"german-holidays",
 		"feiertage",
 		"holidays",
 		"german",
+		"germany",
 		"deutschland",
 		"bundesland",
 		"brückentage",
 		"bridge-days",
 		"public-holidays",
+		"bank-holidays",
 		"typescript",
 		"cli"
 	],
