@@ -1,6 +1,6 @@
 {
 	"name": "german-holidays",
-	"version": "0.8.0",
+	"version": "1.0.0",
 	"description": "German public holidays for all 16 states. Movable holidays, Brückentage, isFeiertag — TypeScript-first, zero dependencies, CLI included.",
 	"type": "module",
 	"license": "MIT",
