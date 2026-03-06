@@ -1,6 +1,20 @@
-# german-holidays
+<p align="center"><img src="./icon.png" width="120" /></p>
 
-German public holidays for all 16 states. Brückentage calculator, CLI included. TypeScript-first, zero dependencies.
+<h1 align="center">german-holidays</h1>
+
+<p align="center">German public holidays for all 16 states. Movable holidays, bridge days, isFeiertag — TypeScript-first, zero dependencies, CLI included.</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/german-holidays"><img src="https://img.shields.io/npm/v/german-holidays" alt="npm version" /></a>
+  <a href="https://bundlephobia.com/package/german-holidays"><img src="https://img.shields.io/bundlephobia/minzip/german-holidays" alt="bundle size" /></a>
+  <a href="https://github.com/mulkatz/german-holidays/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/german-holidays" alt="license" /></a>
+</p>
+
+<p align="center"><img src="./assets/demo.gif" width="800" /></p>
+
+<p align="center">
+  <a href="https://german-holidays.mulkatz.dev"><strong>→ Live Demo</strong></a>
+</p>
 
 ## Features
 
