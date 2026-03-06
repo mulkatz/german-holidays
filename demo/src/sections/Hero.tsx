@@ -78,10 +78,10 @@ export function Hero() {
 					{holidays.map((h: Feiertag) => (
 						<div
 							key={h.date}
-							className="flex items-center gap-3 py-2 px-3 rounded-lg hover:bg-zinc-900/50 transition-colors group"
+							className="flex items-center gap-8 py-2 px-3 rounded-lg hover:bg-zinc-900/50 transition-colors group"
 						>
 							<DayBadge dateStr={h.date} />
-							<span className="text-sm text-zinc-500 font-mono w-24 shrink-0">
+							<span className="text-sm text-zinc-500 font-mono w-32 shrink-0">
 								{formatDate(h.date)}
 							</span>
 							<span className="text-sm text-zinc-200">{h.name}</span>
