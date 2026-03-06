@@ -145,12 +145,12 @@ function movableHolidays(year: number): HolidayEntry[] {
 	];
 }
 
-/** Buß- und Bettag: Wednesday before November 23 */
+/** Buß- und Bettag: the last Wednesday on or before November 22 (Nov 16–22) */
 function bussUndBettag(year: number): DateString {
-	const nov23 = new Date(year, 10, 23);
-	const dow = nov23.getDay();
-	const offset = dow >= 3 ? dow - 3 : dow + 4;
-	const d = new Date(year, 10, 23 - offset);
+	const nov22 = new Date(year, 10, 22);
+	const dow = nov22.getDay();
+	const offset = (dow - 3 + 7) % 7;
+	const d = new Date(year, 10, 22 - offset);
 	return dateToString(d);
 }
 
