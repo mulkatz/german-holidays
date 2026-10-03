@@ -1,4 +1,4 @@
-<p align="center"><img src="./icon.png" width="120" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/mulkatz/german-holidays/main/icon.png" width="120" alt="german-holidays icon" /></p>
 
 <h1 align="center">german-holidays</h1>
 
@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/german-holidays"><img src="https://img.shields.io/npm/v/german-holidays" alt="npm version" /></a>
-  <a href="https://github.com/mulkatz/german-holidays/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/german-holidays" alt="license" /></a>
+  <a href="https://github.com/mulkatz/german-holidays/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" /></a>
 </p>
 
 <p align="center"><img src="./assets/demo.gif" width="800" /></p>
