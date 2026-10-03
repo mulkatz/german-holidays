@@ -6,7 +6,6 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/german-holidays"><img src="https://img.shields.io/npm/v/german-holidays" alt="npm version" /></a>
-  <a href="https://bundlephobia.com/package/german-holidays"><img src="https://img.shields.io/bundlephobia/minzip/german-holidays" alt="bundle size" /></a>
   <a href="https://github.com/mulkatz/german-holidays/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/german-holidays" alt="license" /></a>
 </p>
 
